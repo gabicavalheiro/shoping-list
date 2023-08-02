@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="IMG/Desenho-de-Carrinho-de-Compras-PNG.png" type="image/x-icon">
+    <title>Lista de Compras</title>
+</head>
+
+<body>
+    <div class="container text-center my-4">
+        <h2>
+            <img src="IMG/Desenho-de-Carrinho-de-Compras-PNG.png" alt="Carrinho de Compras" class="float-start"width="50">
+            &nbsp;Lista de Compras
+        </h2>
+        <ul class="list-group" id="ulCompras"></ul>
+        <form class="my-3">
+            <label for="inProduto" class="fw-bold mb-2"> Adicionar novos produtos: </label>
+            <input type="text" class="form-control m-auto py-3" id="inProduto"
+                placeholder="Informe o produto e pressione ENTER" 
+                autofocus required>
+        </form>
+
+        <button class="btn btn-dark float-start" id="btLimpar">Limpar lista</button>
+        <button class="btn btn-primary float-end" id="btSalvar">Salvar lista</button>
+
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

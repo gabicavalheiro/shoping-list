@@ -1,0 +1,12 @@
+.container{
+    max-width: 400px;
+}
+ul > li:nth-child(odd){
+    background-color: orange;
+}
+ul > li:nth-child(even){
+    background-color: blueviolet;
+}
+.delete{
+    cursor: pointer;
+}
