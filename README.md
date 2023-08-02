@@ -14,7 +14,7 @@ Projeto para armazenar uma lista de compras. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto shopping list" src="image-github.png" width="100%">
+  <img alt="projeto shopping list" src="IMG/image-github.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,6 +30,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Shopping List é um projeto de lista de comprs para armezenar o que precisa ser comprado.
 
-- [Acesse o projeto finalizado, online](https://gabicavalheiro.github.io/game-fruits/)
+- [Acesse o projeto finalizado, online](https://gabicavalheiro.github.io/shopping-list/)
 
 
